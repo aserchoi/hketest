@@ -18,7 +18,7 @@ var app = express();
 
 // Routes
 app.get('/', function (req, res) {
-  res.send('Hello World! [CI/CD now]');
+  res.send('Hello World! [CI/CD on both OnAir and OnPerm]');
 });
 
 // Create the server

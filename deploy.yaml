@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hketest
-        image: AserTrainACR.azurecr.io/aserchoi/hketest:$BUILD_ID
+        image: docker.io/pleungdev/hketrain-aser:$BUILD_ID
         ports:
         - containerPort: 40041
 ---
